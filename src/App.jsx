@@ -232,7 +232,14 @@ const App = () => {
             ExpressJS
           </p>
         </div>
-
+        <div className="mt-5">
+          <h3 className="font-bold text-[20px] tracking-[-0.3px]">Github Activity</h3>
+          <img
+            src="https://ghchart.rshah.org/DarilInsanKamil"
+            alt="Name Your Github chart"
+            className="mt-3"
+          />
+        </div>
         <section className="mt-5">
           <div className="flex justify-between items-center">
             <h3 className="font-bold text-[20px] tracking-[-0.3px]">Project</h3>
