@@ -165,12 +165,13 @@ const App = () => {
             </div>
           </div>
         </section>
+
         <div>
           <h3 className="font-bold text-[20px] tracking-[-0.3px] mt-5">
             Work Experience
           </h3>
           <div>
-            <h4 className="font-medium text-[16px] tracking-[-0.3px] mt-1">
+            <h4 className="font-medium text-[16px] tracking-[-0.3px] mt-2">
               Universitas Mercu Buana
             </h4>
             <div className="flex justify-between w-full">
@@ -184,17 +185,63 @@ const App = () => {
               university under the Menara Bhakti Foundation located in Jakarta,
               Indonesia.
             </p>
-            {/* <ul>
-              <li>heloo</li>
-              <li>heloo</li>
-              <li>heloo</li>
-              <li>heloo</li>
-            </ul> */}
+          </div>
+        </div>
+
+        <div>
+          <h3 className="font-bold text-[20px] tracking-[-0.3px] mt-5">
+            Certificate
+          </h3>
+          <div className="group">
+            <a
+              href="https://sanbercode.com/certificate/in/3af54f5f-7189-48d9-b38c-e4ba557af5c3"
+              target="_blank"
+            >
+              <h4 className="font-medium text-[16px] tracking-[-0.3px] mt-2 group-hover:underline">
+                ReactJs
+              </h4>
+              <div className="flex justify-between w-full">
+                <p className="font-mono font-thin text-gray-700">Sanbercode</p>
+                <p className="text-gray-600 text-sm tracking-[1px]">
+                  Aug 2021 - Sep 2021
+                </p>
+              </div>
+              <p className="font-mono font-thin text-sm text-gray-600 mt-3 md:w-[600px] w-full">
+                React Js merupakan salah satu framework frontend populer.
+                Digunakan oleh banyak perusahaan besar dan didukung komunitas
+                yang besar serta kemudahan penggunaannya, menjadi daya tarik
+                utama kenapa memilih React JS untuk membuat website lebih user
+                friendly
+              </p>
+            </a>
+          </div>
+          <div className="group">
+            <a
+              href="https://sanbercode.com/certificate/in/7ab41651-a3fb-4555-9968-2b057149ab57"
+              target="_blank"
+            >
+              <h4 className="font-medium text-[16px] tracking-[-0.3px] mt-2 group-hover:underline">
+                React Native
+              </h4>
+              <div className="flex justify-between w-full">
+                <p className="font-mono font-thin text-gray-700">Sanbercode</p>
+                <p className="text-gray-600 text-sm tracking-[1px]">
+                  Oct 2021 - Nov 2021
+                </p>
+              </div>
+              <p className="font-mono font-thin text-sm text-gray-600 mt-3 md:w-[600px] w-full">
+                Rancang dan buat aplikasi mobile android dan IOS menggunakan
+                framework populer React Native yang juga menggunakan bahasa
+                pemrograman populer JavaScript.
+              </p>
+            </a>
           </div>
         </div>
       </section>
 
       <section className="mt-5 ">
+        
+        {/* PROGRAMMING LANGUAGE */}
         <div>
           <h3 className="font-bold text-[20px] tracking-[-0.3px]">
             Tech Stack
@@ -214,6 +261,8 @@ const App = () => {
             </p>
           </div>
         </div>
+
+        {/* TOOLBOX */}
         <div className="flex gap-1 mt-2 flex-wrap items-center">
           <p className="font-mono font-thin text-sm text-gray-600">ToolBox:</p>
           <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
@@ -232,14 +281,20 @@ const App = () => {
             ExpressJS
           </p>
         </div>
+
+        {/* GITHUB ACTIVITY */}
         <div className="mt-5">
-          <h3 className="font-bold text-[20px] tracking-[-0.3px]">Github Activity</h3>
+          <h3 className="font-bold text-[20px] tracking-[-0.3px]">
+            Github Activity
+          </h3>
           <img
             src="https://ghchart.rshah.org/DarilInsanKamil"
             alt="Name Your Github chart"
             className="mt-3"
           />
         </div>
+
+        {/* PROJECT */}
         <section className="mt-5">
           <div className="flex justify-between items-center">
             <h3 className="font-bold text-[20px] tracking-[-0.3px]">Project</h3>
@@ -249,6 +304,8 @@ const App = () => {
           </div>
 
           <div className="flex md:flex-row flex-col gap-2 mt-3">
+
+            {/* JOBFINDER */}
             <div className="w-full border border-gray-200 p-3 rounded-md hover:bg-slate-100 hover:cursor-pointer">
               <h4 className="font-medium text-[16px] tracking-[-0.3px]">
                 JobFinder
@@ -274,8 +331,10 @@ const App = () => {
                 </p>
               </div>
             </div>
+
+            {/* ANIMELIST */}
             <div className="w-full border border-gray-200 p-3 rounded-md hover:bg-slate-100 hover:cursor-pointer">
-              <h4 className="font-medium text-[16px] tracking-[-0.3px] hover:underline hover:cursor-pointer">
+              <h4 className="font-medium text-[16px] tracking-[-0.3px]">
                 AnimeList
               </h4>
               <p className="font-mono font-thin text-sm text-gray-600 mt-5">
@@ -290,8 +349,10 @@ const App = () => {
                 </p>
               </div>
             </div>
+            
+            {/* UI LANDINGPAGE */}
             <div className="w-full border border-gray-200 p-3 rounded-md hover:bg-slate-100 hover:cursor-pointer">
-              <h4 className="font-medium text-[16px] tracking-[-0.3px] hover:underline hover:cursor-pointer">
+              <h4 className="font-medium text-[16px] tracking-[-0.3px]">
                 IU Landing Page
               </h4>
               <p className="font-mono font-thin text-sm text-gray-600 mt-5">
@@ -309,9 +370,12 @@ const App = () => {
                 </p>
               </div>
             </div>
+
           </div>
         </section>
       </section>
+
+      {/* BLOG */}
       <section className="mt-5 col-span-2 ">
         <div className="flex justify-between items-center">
           <h3 className="font-bold text-[20px] tracking-[-0.3px]">Blog</h3>
@@ -320,10 +384,10 @@ const App = () => {
           </a>
         </div>
         <div>
-          <div className="mt-3">
+          <div className="mt-3 group cursor-pointer">
             <a
               href="#"
-              className="font-medium text-[16px] tracking-[-0.3px]  hover:underline"
+              className="font-medium text-[16px] tracking-[-0.3px] group-hover:underline"
             >
               Menyederhanakan pencarian studio untuk konten kreator
             </a>
@@ -334,10 +398,10 @@ const App = () => {
             </p>
           </div>
           <div className="w-full border-b mt-3 border-gray-200"></div>
-          <div className="mt-3">
+          <div className="mt-3 group cursor-pointer">
             <a
               href="#"
-              className="font-medium text-[16px] tracking-[-0.3px]  hover:underline"
+              className="font-medium text-[16px] tracking-[-0.3px]  group-hover:underline"
             >
               Security Labs Brand Guidelines
             </a>
