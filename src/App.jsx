@@ -1,5 +1,6 @@
 import React from "react";
-
+import { CardProject } from "./components/cardProject";
+import { CardBlog } from "./components/cardBlog";
 const App = () => {
   return (
     <div className="md:px-[120px] md:py-[60px] p-[20px] md:grid grid-cols-2  gap-8 ">
@@ -156,7 +157,7 @@ const App = () => {
                   Universitas Pamulang
                 </h4>
                 <p className="text-gray-600 text-sm tracking-[1px]">
-                  2018 - Present
+                  2022 - Present
                 </p>
               </div>
               <p className="font-mono font-thin text-sm text-gray-600">
@@ -240,7 +241,6 @@ const App = () => {
       </section>
 
       <section className="mt-5 ">
-        
         {/* PROGRAMMING LANGUAGE */}
         <div>
           <h3 className="font-bold text-[20px] tracking-[-0.3px]">
@@ -259,12 +259,26 @@ const App = () => {
             <p className="bg-gray-700 text-xs font-mono text-white font-bold w-max px-[6px] tracking-[0.5px] leading-[24px] rounded-sm">
               Python
             </p>
+            <p className="bg-gray-700 text-xs font-mono text-white font-bold w-max px-[6px] tracking-[0.5px] leading-[24px] rounded-sm">
+              Golang
+            </p>
+            <p className="bg-gray-700 text-xs font-mono text-white font-bold w-max px-[6px] tracking-[0.5px] leading-[24px] rounded-sm">
+              Rust
+            </p>
           </div>
         </div>
 
         {/* TOOLBOX */}
         <div className="flex gap-1 mt-2 flex-wrap items-center">
-          <p className="font-mono font-thin text-sm text-gray-600">ToolBox:</p>
+          <p className="font-mono font-thin text-sm text-gray-600">
+            Framework & Tools:
+          </p>
+          <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
+            Node JS
+          </p>
+          <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
+            Bun
+          </p>
           <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
             React
           </p>
@@ -272,13 +286,19 @@ const App = () => {
             NextJS
           </p>
           <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
+            Svelte
+          </p>
+          <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
+            ExpressJS
+          </p>
+          <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
+            Elysia JS
+          </p>
+          <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
             Tailwind
           </p>
           <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
             Figma
-          </p>
-          <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-            ExpressJS
           </p>
         </div>
 
@@ -298,79 +318,14 @@ const App = () => {
         <section className="mt-5">
           <div className="flex justify-between items-center">
             <h3 className="font-bold text-[20px] tracking-[-0.3px]">Project</h3>
-            <a href="#" className="thicker-[1px] text-gray-600 text-sm">
+            <a href="/projects" className="thicker-[1px] text-gray-600 text-sm">
               more project
             </a>
           </div>
 
-          <div className="flex md:flex-row flex-col gap-2 mt-3">
-
+          <div className="flex md:flex-row flex-col gap-2 mt-3 flex-wrap">
             {/* JOBFINDER */}
-            <div className="w-full border border-gray-200 p-3 rounded-md hover:bg-slate-100 hover:cursor-pointer">
-              <h4 className="font-medium text-[16px] tracking-[-0.3px]">
-                JobFinder
-              </h4>
-              <p className="font-mono font-thin text-sm text-gray-600 mt-5">
-                Final project dari Bootcamp Sanbercode.
-              </p>
-              <div className="mt-3 flex gap-2 flex-wrap">
-                <p className="bg-gray-200 text-xs font-mono text-gray-900 w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-                  NextJS
-                </p>
-                <p className="bg-gray-200 text-xs font-mono text-gray-900 w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-                  Tailwind
-                </p>
-                <p className="bg-gray-200 text-xs font-mono text-gray-900 w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-                  React Query
-                </p>
-                <p className="bg-gray-200 text-xs font-mono text-gray-900 w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-                  Zod
-                </p>
-                <p className="bg-gray-200 text-xs font-mono text-gray-900 w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-                  React Hook Form
-                </p>
-              </div>
-            </div>
-
-            {/* ANIMELIST */}
-            <div className="w-full border border-gray-200 p-3 rounded-md hover:bg-slate-100 hover:cursor-pointer">
-              <h4 className="font-medium text-[16px] tracking-[-0.3px]">
-                AnimeList
-              </h4>
-              <p className="font-mono font-thin text-sm text-gray-600 mt-5">
-                Explorasi NextJs App Router.
-              </p>
-              <div className="mt-3 flex gap-2 flex-wrap">
-                <p className="bg-gray-200 text-xs font-mono text-gray-900 w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-                  NextJS
-                </p>
-                <p className="bg-gray-200 text-xs font-mono text-gray-900 w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-                  Tailwind
-                </p>
-              </div>
-            </div>
-            
-            {/* UI LANDINGPAGE */}
-            <div className="w-full border border-gray-200 p-3 rounded-md hover:bg-slate-100 hover:cursor-pointer">
-              <h4 className="font-medium text-[16px] tracking-[-0.3px]">
-                IU Landing Page
-              </h4>
-              <p className="font-mono font-thin text-sm text-gray-600 mt-5">
-                Explorasi design website IU (Lee Ji Eun)
-              </p>
-              <div className="mt-3 flex gap-2 flex-wrap">
-                <p className="bg-gray-200 text-xs font-mono text-gray-900 w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-                  React Vite
-                </p>
-                <p className="bg-gray-200 text-xs font-mono text-gray-900 w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-                  Tailwind
-                </p>
-                <p className="bg-gray-200 text-xs font-mono text-gray-900 w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-                  React Router
-                </p>
-              </div>
-            </div>
-
+            <CardProject />
           </div>
         </section>
       </section>
@@ -379,36 +334,24 @@ const App = () => {
       <section className="mt-5 col-span-2 ">
         <div className="flex justify-between items-center">
           <h3 className="font-bold text-[20px] tracking-[-0.3px]">Blog</h3>
-          <a href="#" className="thicker-[1px] text-gray-600 text-sm">
+          <a href="/blogs" className="thicker-[1px] text-gray-600 text-sm">
             more
           </a>
         </div>
         <div>
-          <div className="mt-3 group cursor-pointer">
+          <CardBlog />
+          {/* <div className="mt-3 group cursor-pointer">
             <a
-              href="#"
+              href="blogs/UIUX-Research"
               className="font-medium text-[16px] tracking-[-0.3px] group-hover:underline"
             >
               Menyederhanakan pencarian studio untuk konten kreator
             </a>
             <p className="font-mono font-thin text-sm text-gray-600 mt-2 md:w-[800px]">
-              kurangnya informasi yang disediakan di website atau media sosial.
-              Proses booking studio yang ribet. Kurangnya ulasan jadi membuat
-              bingung apakah studio tersebut bagus atau tidak.
+              
             </p>
-          </div>
-          <div className="w-full border-b mt-3 border-gray-200"></div>
-          <div className="mt-3 group cursor-pointer">
-            <a
-              href="#"
-              className="font-medium text-[16px] tracking-[-0.3px]  group-hover:underline"
-            >
-              Security Labs Brand Guidelines
-            </a>
-            <p className="font-mono font-thin text-sm text-gray-600 mt-2 md:w-[800px]">
-              Eksplorasi design brand guideline security labs.
-            </p>
-          </div>
+          </div> */}
+          {/* <div className="w-full border-b mt-3 border-gray-200"></div> */}
         </div>
       </section>
     </div>
