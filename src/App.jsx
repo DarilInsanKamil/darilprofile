@@ -130,8 +130,12 @@ const App = () => {
           <div>
             <h3 className="font-bold text-[20px] tracking-[-0.3px]">About</h3>
             <p className="font-mono font-thin text-sm text-gray-600 mt-1">
-              Hello i'm Daril. I am interested in software development and also
-              UI/UX.
+              Saya mahasiswa Teknik Informatika yang berpengalaman membangun
+              aplikasi web melalui berbagai proyek freelance. Saya terbiasa
+              menggunakan React dan Next.js, serta senang mempelajari teknologi
+              baru. Saya memiliki ketertarikan besar pada pengembangan website
+              yang menarik, serta selalu berkomitmen untuk terus belajar dan
+              bekerja sama demi menjadi developer yang lebih baik.
             </p>
           </div>
           <div>
@@ -181,11 +185,31 @@ const App = () => {
                 Mar 2019 - Jul 2019
               </p>
             </div>
-            <p className="font-mono font-thin text-sm text-gray-600 mt-3 md:w-[600px] w-full">
-              Mercu Buana University is a private university is a private
-              university under the Menara Bhakti Foundation located in Jakarta,
-              Indonesia.
-            </p>
+          </div>
+          <div>
+            <h4 className="font-medium text-[16px] tracking-[-0.3px] mt-2">
+              Freelance
+            </h4>
+            <div className="flex justify-between w-full">
+              <p className="font-mono font-thin text-gray-700">
+                Fullstack Developer
+              </p>
+              <p className="text-gray-600 text-sm tracking-[1px]">
+                Apr 2024 - Present
+              </p>
+            </div>
+            <ul className="font-mono font-thin text-sm text-gray-600 mt-3 md:w-[600px] w-full">
+              <li className="list-disc ml-3">
+                Mengubah desain landing page dari Figma menjadi website
+                responsif menggunakan JavaScript dan Angular untuk menghasilkan
+                UI yang presisi pada proyek perusahaan.
+              </li>
+              <li className="list-disc ml-3">
+                Membangun website untuk perusahaan wisata petualangan dengan
+                fitur pemesanan melalui WhatsApp dan CMS untuk mengelola paket,
+                menggunakan Next.js 15.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -257,13 +281,7 @@ const App = () => {
               Typescript
             </p>
             <p className="bg-gray-700 text-xs font-mono text-white font-bold w-max px-[6px] tracking-[0.5px] leading-[24px] rounded-sm">
-              Python
-            </p>
-            <p className="bg-gray-700 text-xs font-mono text-white font-bold w-max px-[6px] tracking-[0.5px] leading-[24px] rounded-sm">
               Golang
-            </p>
-            <p className="bg-gray-700 text-xs font-mono text-white font-bold w-max px-[6px] tracking-[0.5px] leading-[24px] rounded-sm">
-              Rust
             </p>
           </div>
         </div>
@@ -284,9 +302,6 @@ const App = () => {
           </p>
           <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
             NextJS
-          </p>
-          <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
-            Svelte
           </p>
           <p className="bg-gray-700 text-xs font-mono text-white w-max px-[6px] font-bold tracking-[0.5px] leading-[24px] rounded-sm">
             ExpressJS
