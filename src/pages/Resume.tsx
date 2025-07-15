@@ -3,10 +3,11 @@ import React from "react";
 const Resume = () => {
   return (
     <div>
-      <embed
+      <iframe
+        src="/resume.pdf"
+        frameBorder="0"
         className="w-full h-[100vh]"
-        src="../../public/CV_Daril_Insan_Kamil.pdf"
-      ></embed>
+      ></iframe>
     </div>
   );
 };
