@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blog from "./pages/blogs/Blog.jsx";
 import BlogDetail from "./pages/blogs/[blogId].js";
 import Project from "./pages/project/Project.jsx";
+import Resume from "./pages/Resume.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -21,6 +22,8 @@ createRoot(document.getElementById("root")).render(
         <Route path="projects">
           <Route index element={<Project />} />
         </Route>
+        <Route path="/resume" element={<Resume />} />
+   
       </Routes>
     </BrowserRouter>
   </StrictMode>

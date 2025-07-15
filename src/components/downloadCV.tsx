@@ -3,7 +3,7 @@ import React from "react";
 export const GetResumeComponent = () => {
   return (
     <div className="border border-gray-500 px-3 py-1 rounded-full w-fit transition-all hover:bg-gray-100 bg-white">
-      <a href="../../public/CV_Daril_Insan_Kamil.pdf"
+      <a href="/resume"
       target="_blank"
       className="flex gap-2 items-center"
       >
