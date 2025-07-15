@@ -1,6 +1,7 @@
 import React from "react";
 import { CardProject } from "./components/cardProject";
 import { CardBlog } from "./components/cardBlog";
+import { GetResumeComponent } from "./components/downloadCV";
 const App = () => {
   return (
     <div className="md:px-[120px] md:py-[60px] p-[20px] md:grid grid-cols-2  gap-8 ">
@@ -369,6 +370,9 @@ const App = () => {
           {/* <div className="w-full border-b mt-3 border-gray-200"></div> */}
         </div>
       </section>
+      <div className="fixed md:right-24 md:top-5 bottom-5 right-5">
+        <GetResumeComponent />
+      </div>
     </div>
   );
 };
