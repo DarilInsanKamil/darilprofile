@@ -23,6 +23,13 @@ export const projectData = [
         url: 'https://batokrafting.com',
         stack: ['NextJS 15', 'PostgreSQL', 'ShadCN', 'Tailwind']
     },
+      {
+        id: 4,
+        title: 'Roasting Playlist Spotify',
+        url: 'https://roast-playlist-spotify.vercel.app',
+        description: 'Seberapa keren si playlist lu, sini gua liat😈',
+        stack: ['NextJS 15', 'Spotify API', 'Gemini AI', 'Tailwind']
+    },
 ]
 
 export const blogData = [
